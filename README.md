@@ -1,3 +1,2 @@
 # pizzzahud
-- based off <somefag>hud
-- very nice and good yes
+- Created on and optimised for 1024x480 (32:15)
