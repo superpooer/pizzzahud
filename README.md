@@ -11,4 +11,5 @@ declutter and minimise hud elements, particularly in menus
 	- remove gay unnecessary shit (class icon, menu overhauls)
 - medic:
 	- put uber% (hopefully without %sign) over where xhair would be
+		- have to remove % symbol from the font the uber% will use
 	- maybe also a full screen width bar on bottom 5ish pixels
