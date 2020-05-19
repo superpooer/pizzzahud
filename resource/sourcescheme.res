@@ -7,38 +7,39 @@ Scheme
 	// this is a list of all the colors used by the scheme
 	Colors
 	{
-	    "TFDarkBrown"               "60 56 53 255"
-	    "TFDarkBrownTransparent"    "60 56 53 190"
-	    "TFTanBright"               "236 227 203 150"
-	    "TFTanLight"                "201 188 162 150"
-	    "TFTanMedium"               "131 121 104 150"
+		//default colours
+	    "TFDarkBrown"               "0 0 0 255"				//console background and border colour
+	    "TFDarkBrownTransparent"    "0 0 0 255"				//fade colour for source ui elements
+	    "TFTanBright"               "80 0 0 255"			//console title and close x
+	    "TFTanLight"                "20 20 20 255"			//scrollbar buttons and submit button
+	    "TFTanMedium"               "0 0 0 255"				//scrollbar and resize tab
 	    
-	    "TFTanLightBright"          "229 223 211 90"
-	    "TFTanLightDark"            "96 90 78 90"
+	    "TFTanLightBright"          "255 0 255 255"
+	    "TFTanLightDark"            "20 20 20 255"			//console button border
 	    
-	    "TFOrangeBright"            "156 82 33 255"
+	    "TFOrangeBright"            "255 200 255 255"		//highlighted text background
 	    
-	    "TFTextBright"              "251 236 203 150"
-	    "TFTextLight"               "201 188 162 255"
-	    "TFTextMedium"              "131 121 104 255"
-	    "TFTextMediumDark"          "104 96 83 255"
-	    "TFTextBlack"               "42 39 37 255"
-	    "TFTextDull"                "131 121 104 255"
+	    "TFTextBright"              "0 170 0 255"			//console typing colour
+	    "TFTextLight"               "255 255 0 255"
+	    "TFTextMedium"              "0 170 0 255"			//selected "game" in server browser
+	    "TFTextMediumDark"          "255 255 0 255"
+	    "TFTextBlack"               "0 255 255 255"
+	    "TFTextDull"                "0 40 0 255"			//server browser disabled text
 
-	    "TFMediumBrown"		"69 64 58 255"
+	    "TFMediumBrown"		"255 0 0 255"
 
-	    "QuickListBGDeselected"		"69 64 58 255"
-	    "QuickListBGSelected"               "131 121 104 150"
+	    "QuickListBGDeselected"		"255 0 0 255"
+	    "QuickListBGSelected"               "0 255 255 255"
 	    
 	    "Blank"				"0 0 0 0"
 	    
 	    // background colors
-		"ControlBG"			"76 88 68 255"		// background color of controls
-		"ControlDarkBG"		"90 106 80 255"		// darker background color; used for background of scrollbars
-		"WindowBG"			"62 70 55 255"		// background color of text edit panes (chat, text entries, etc.)
-		"SelectionBG"		"90 84 75 255"	// background color of any selected text or menu item
-		"SelectionBG2"		"69 64 57 255"		// selection background in window w/o focus
-		"ListBG"			"39 36 34 255"		// background of server browser, buddy list, etc.
+		"ControlBG"			"255 0 0 255"		// background color of controls
+		"ControlDarkBG"		"255 0 0 255"		// darker background color; used for background of scrollbars
+		"WindowBG"			"255 0 255 255"		// background color of text edit panes (chat, text entries, etc.)
+		"SelectionBG"		"255 200 255 255"	// background color of any selected text or menu item
+		"SelectionBG2"		"255 255 0 255"		// selection background in window w/o focus
+		"ListBG"			"0 0 0 255"			// background of server browser, buddy list, etc.
 	}
 	BaseSettings
 	{
@@ -137,7 +138,7 @@ Scheme
 		{
 			"1"	[$WIN32]
 			{
-				"name"		"TF2 Build"
+				"name"		"Consolas"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -156,7 +157,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Consolas"
 				"tall"		"35"
 				"tall_lodef"	"40"
 				"weight"	"500"
@@ -169,7 +170,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Consolas"
 				"tall"		"14"
 				"weight"	"500"
 			}
@@ -179,7 +180,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Consolas"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -187,7 +188,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Tahoma"
+				"name"		"Consolas"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -195,7 +196,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Tahoma"
+				"name"		"Consolas"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -204,7 +205,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Tahoma"
+				"name"		"Consolas"
 				"tall"		"19"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -213,7 +214,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Tahoma"
+				"name"		"Consolas"
 				"tall"		"19"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A

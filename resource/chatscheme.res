@@ -15,6 +15,15 @@ Scheme
 	// this is a list of all the colors used by the scheme
 	Colors
 	{
+		// PIZZZAHUD COLOURS
+		"pzwhite"			"255 255 255 255"
+		"pzblack"			"0   0   0   255"
+		"pzgreen"			"0   255 0   255"
+		"pzdarkgreen"		"0   128 0   255"
+		"pzred"				"255 0   0   255"
+		"pzdarkred"			"128 0   0   255"
+		"pzblue"			"0   0   255 255"
+		"pzdarkblue"		"0   0   128 255"
 		// base colors
 		"White"				"255 255 255 255"
 		"OffWhite"			"216 216 216 255"
@@ -59,7 +68,7 @@ Scheme
 		ComboBoxButton.BgColor			"Blank"
 		ComboBoxButton.DisabledBgColor	"Blank"
 
-		"Chat.TypingText"		"White"
+		"Chat.TypingText"		"pzgreen"
 
 		Frame.TitleTextInsetX			16
 		Frame.ClientInsetX				8
@@ -160,15 +169,15 @@ Scheme
 		Slider.DisabledTextColor1	"117 117 117 255"
 		Slider.DisabledTextColor2	"30 30 30 255"
 
-		TextEntry.TextColor			"OffWhite"
-		TextEntry.BgColor			"TransparentBlack"
+		TextEntry.TextColor			"pzdarkgreen"
+		TextEntry.BgColor			"pzblack"
 		TextEntry.CursorColor		"OffWhite"
-		TextEntry.DisabledTextColor	"DullWhite"
+		TextEntry.DisabledTextColor	"pzdarkred"
 		TextEntry.DisabledBgColor	"Blank"
-		TextEntry.SelectedTextColor	"Black"
-		TextEntry.SelectedBgColor	"Orange"
-		TextEntry.OutOfFocusSelectedBgColor	"255 155 0 128"
-		TextEntry.FocusEdgeColor	"0 0 0 196"
+		TextEntry.SelectedTextColor	"pzblue"
+		TextEntry.SelectedBgColor	"pzdarkred"
+		TextEntry.OutOfFocusSelectedBgColor	"255 50 50 255"
+		TextEntry.FocusEdgeColor	"pzblack"
 
 		ToggleButton.SelectedTextColor	"White"
 
@@ -190,8 +199,8 @@ Scheme
 		MainMenu.Inset				"32"
 		MainMenu.Backdrop			"0 0 0 156"
 
-		Console.TextColor			"OffWhite"
-		Console.DevTextColor		"White"
+		Console.TextColor			"pzdarkgreen"
+		Console.DevTextColor		"pzdarkblue"
 
 		NewGame.TextColor			"White"
 		NewGame.FillColor			"0 0 0 255"
@@ -199,9 +208,9 @@ Scheme
 		NewGame.SelectionColor		"0 0 0 255"	[$X360]
 		NewGame.DisabledColor		"128 128 128 196"
 
-		TFColors.ChatTextYellow		"251 235 202 255"
-		TFColors.ChatTextTeamBlue	"153 204 255 255"
-		TFColors.ChatTextTeamRed	"255 63 53 255"
+		TFColors.ChatTextYellow		"pzdarkgreen"
+		TFColors.ChatTextTeamBlue	"pzred"
+		TFColors.ChatTextTeamRed	"pzblue"
 	}
 
 	//////////////////////// BITMAP FONT FILES /////////////////////////////
@@ -223,7 +232,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Consolas"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -231,7 +240,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Consolas"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -239,7 +248,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Consolas"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -248,7 +257,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Consolas"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -257,7 +266,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Consolas"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -360,45 +369,40 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"12"	[$WIN32]
-				"tall"		"15"	[$X360]
+				"name"		"Consolas"
+				"tall"		"14"
 				"weight"	"700"
 				"yres"		"480 599"
 				"dropshadow"	"1"
 			}
 			"2"
 			{
-				"name"		"Verdana"
-				"tall"		"14"	[$WIN32]
-				"tall"		"17"	[$X360]
+				"name"		"Consolas"
+				"tall"		"15"	
 				"weight"	"700"
 				"yres"		"600 767"
 				"dropshadow"	"1"
 			}
 			"3"
 			{
-				"name"		"Verdana"
-				"tall"		"15"	[$WIN32]
-				"tall"		"18"	[$X360]
+				"name"		"Consolas"
+				"tall"		"16"
 				"weight"	"700"
 				"yres"		"768 1023"
 				"dropshadow"	"1"
 			}
 			"4"
 			{
-				"name"		"Verdana"
-				"tall"		"17"	[$WIN32]
-				"tall"		"20"	[$X360]
+				"name"		"Consolas"
+				"tall"		"17"	
 				"weight"	"700"
 				"yres"		"1024 1199"
 				"dropshadow"	"1"
 			}
 			"5"
 			{
-				"name"		"Verdana"
-				"tall"		"22"	[$WIN32]
-				"tall"		"25"	[$X360]
+				"name"		"Consolas"
+				"tall"		"22"	
 				"weight"	"700"
 				"yres"		"1200 10000"
 				"dropshadow"	"1"
