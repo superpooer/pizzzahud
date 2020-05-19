@@ -3028,6 +3028,90 @@ Scheme
 				"antialias" "1"
 			}
 		}
+
+		///////////////////////// PIZZAHUD CUSTOM FONTS ////////////////////////
+
+		"consolas12"
+		{
+			"1"
+			{
+				"name"		"Consolas"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+		"consolas16"
+		{
+			"1"
+			{
+				"name"		"Consolas"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		"consolas20"
+		{
+			"1"
+			{
+				"name"		"Consolas"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+		"consolas24"
+		{
+			"1"
+			{
+				"name"		"Consolas"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		"consolas28"
+		{
+			"1"
+			{
+				"name"		"Consolas"
+				"tall"		"28"
+				"antialias" "1"
+			}
+		}
+		"consolas32"
+		{
+			"1"
+			{
+				"name"		"Consolas"
+				"tall"		"32"
+				"antialias" "1"
+			}
+		}
+		"consolas36"
+		{
+			"1"
+			{
+				"name"		"Consolas"
+				"tall"		"36"
+				"antialias" "1"
+			}
+		}
+		"consolas40"
+		{
+			"1"
+			{
+				"name"		"Consolas"
+				"tall"		"40"
+				"antialias" "1"
+			}
+		}
+		"consolas48"
+		{
+			"1"
+			{
+				"name"		"Consolas"
+				"tall"		"48"
+				"antialias" "1"
+			}
+		}
 	}
 
 	//
@@ -5838,6 +5922,31 @@ Scheme
 			{
 				"range" "0x0000 0x007E"
 			}
+		}
+		"8"
+		{
+		"font" "resource/fonts/pzcons.ttf"
+		"name" "Consolas"
+		}
+		"9"
+		{
+		"font" "resource/fonts/pzconsb.ttf"
+		"name" "Consolas Bold"
+		}
+		"10"
+		{
+		"font" "resource/fonts/pzconsi.ttf"
+		"name" "Consolas Italic"
+		}
+		"11"
+		{
+		"font" "resource/fonts/pzconsbi.ttf"
+		"name" "Consolas Bold Italic"
+		}
+		"12"
+		{
+		"font" "resource/fonts/pzconsnop.ttf"
+		"name" "Consolas-nopercent"
 		}
 	}
 }
