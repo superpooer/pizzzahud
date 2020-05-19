@@ -171,12 +171,12 @@ Scheme
 
 		TextEntry.TextColor			"pzdarkgreen"
 		TextEntry.BgColor			"pzblack"
-		TextEntry.CursorColor		"OffWhite"
+		TextEntry.CursorColor		"255 255 255 255"
 		TextEntry.DisabledTextColor	"pzdarkred"
 		TextEntry.DisabledBgColor	"Blank"
-		TextEntry.SelectedTextColor	"pzblue"
-		TextEntry.SelectedBgColor	"pzdarkred"
-		TextEntry.OutOfFocusSelectedBgColor	"255 50 50 255"
+		TextEntry.SelectedTextColor	"0 0 0 255"
+		TextEntry.SelectedBgColor	"255 200 255 255"
+		TextEntry.OutOfFocusSelectedBgColor	"255 200 255 255"
 		TextEntry.FocusEdgeColor	"pzblack"
 
 		ToggleButton.SelectedTextColor	"White"
