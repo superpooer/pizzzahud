@@ -2247,12 +2247,12 @@
 		"scaleImage"	"1"
 	}
 
-	"CharacterSetupButton"
+	"CharacterSetupButton"	//items button
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterSetupButton"
 		"xpos"			"c-288"
-		"ypos"			"c0"
+		"ypos"			"2000"
 		"wide"			"130"
 		"tall"			"26"
 		"autoResize"	"0"
@@ -2405,7 +2405,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TF2SettingsButton"
 		"xpos"			"c-288"
-		"ypos"			"c80"
+		"ypos"			"2000"
 		"zpos"			"2"
 		"wide"			"130"
 		"tall"			"25"
