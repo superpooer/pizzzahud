@@ -1,5 +1,5 @@
 "Resource/UI/SelectPlayerDialog.res"
-{
+//{
 	"SelectPlayerDialog"
 	{
 		"fieldName"				"SelectPlayerDialog"
@@ -13,14 +13,14 @@
 		"paintbackgroundtype"	"2"
 		"settitlebarvisible"	""
 		"border"				"GrayDialogBorder"
-		
+
 		"button_kv"
 		{
 			"xpos"			"10"
 			"ypos"			"0"
 			"wide"			"350"
 			"tall"			"30"
-				
+
 			"button"
 			{
 				"xpos"			"0"
@@ -43,7 +43,7 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 			}
-			
+
 			"avatar"
 			{
 				"ControlName"	"CAvatarImagePanel"
@@ -56,12 +56,12 @@
 				"image"			""
 				"visible"		"1"
 				"enabled"		"1"
-				"scaleImage"	"1"	
+				"scaleImage"	"1"
 				"color_outline"	"52 48 45 255"
 			}
 		}
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -80,7 +80,7 @@
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
-	
+
 	"PlayerListScroller"
 	{
 		"ControlName"	"ScrollableEditablePanel"
@@ -92,7 +92,7 @@
 		"PaintBackgroundType"	"2"
 		"fgcolor_override"	"117 107 94 255"
 		"bgcolor_override"	"0 0 0 64"
-		
+
 		"PlayerList"
 		{
 			"ControlName"	"EditablePanel"
@@ -116,7 +116,7 @@
 		"wide"	 				"400"
 		"tall"	 				"180"
 		"PaintBackgroundType"	"2"
-	
+
 		"QueryLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -135,7 +135,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"fgcolor_override" "200 187 161 255"
-		}	
+		}
 
 		"subbutton0"
 		{
@@ -197,7 +197,7 @@
 		"wide"	 				"400"
 		"tall"	 				"180"
 		"PaintBackgroundType"	"2"
-	
+
 		"QueryLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -214,8 +214,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override" "200 187 161 255"
-		}	
-		
+		}
+
 		"EmptyPlayerListLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -256,7 +256,7 @@
 			"wrap"			"1"
 			"centerwrap"	"1"
 			"fgcolor_override" "200 187 161 255"
-		}	
+		}
 	}
 	"StatePanel2"
 	{
@@ -269,7 +269,7 @@
 		"wide"	 				"400"
 		"tall"	 				"180"
 		"PaintBackgroundType"	"2"
-	
+
 		"QueryLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -287,8 +287,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override" "200 187 161 255"
-		}	
-		
+		}
+
 		"EmptyPlayerListLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -308,9 +308,9 @@
 			"wrap"			"1"
 			"centerwrap"	"1"
 			"fgcolor_override" "200 187 161 255"
-		}	
+		}
 	}
-	
+
 	"CancelButton"
 	{
 		"ControlName"	"CExButton"

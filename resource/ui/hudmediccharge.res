@@ -1,5 +1,5 @@
 "Resource/UI/HudMedicCharge.res"
-{	
+{
 	"Background"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -12,11 +12,11 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/medic_charge_blue_bg"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"teambg_2"		"../hud/medic_charge_red_bg"
-		"teambg_3"		"../hud/medic_charge_blue_bg"				
+		"teambg_3"		"../hud/medic_charge_blue_bg"
 	}
-	
+
 	"ChargeLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -60,17 +60,17 @@
 		"brighttext"	"0"
 		"font"			"HudFontSmallest"
 	}
-	
+
 	"ChargeMeter"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
 		"xpos"			"0"
-		"ypos"			"r11"
+		"ypos"			"r0"	//change to r11 for bar at bottom of screen
 		"zpos"			"2"
 		"wide"			"f0"
-		"tall"			"12"				
+		"tall"			"12"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -78,10 +78,10 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-	}		
+	}
 
 	"ChargeMeter1"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter1"
 		"font"			"Default"
@@ -91,7 +91,7 @@
 		"ypos_minmode"			"23"
 		"zpos"			"2"
 		"wide"			"19"
-		"tall"			"8"				
+		"tall"			"8"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -102,7 +102,7 @@
 	}
 
 	"ChargeMeter2"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter2"
 		"font"			"Default"
@@ -112,7 +112,7 @@
 		"ypos_minmode"			"23"
 		"zpos"			"2"
 		"wide"			"19"
-		"tall"			"8"				
+		"tall"			"8"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -123,7 +123,7 @@
 	}
 
 	"ChargeMeter3"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter3"
 		"font"			"Default"
@@ -133,7 +133,7 @@
 		"ypos_minmode"			"23"
 		"zpos"			"2"
 		"wide"			"19"
-		"tall"			"8"				
+		"tall"			"8"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -144,7 +144,7 @@
 	}
 
 	"ChargeMeter4"
-	{	
+	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter4"
 		"font"			"Default"
@@ -154,7 +154,7 @@
 		"ypos_minmode"			"23"
 		"zpos"			"2"
 		"wide"			"19"
-		"tall"			"8"				
+		"tall"			"8"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -163,7 +163,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-	
+
 	"HealthClusterIcon"
 	{
 		"ControlName"	"ImagePanel"
@@ -175,9 +175,9 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/ico_health_cluster"
-		"scaleImage"	"1"	
-	}	
-	
+		"scaleImage"	"1"
+	}
+
 	"ResistIcon"
 	{
 		"ControlName"	"ImagePanel"
@@ -190,7 +190,7 @@
 		"visible_minmode"		"0"
 		"enabled"		"1"
 		"image"			"../HUD/defense_buff_bullet_blue"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
-	
+
 }
