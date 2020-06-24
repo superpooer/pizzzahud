@@ -18,7 +18,7 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
-		//god said 16 colours is all you need you fucking dumb nigger
+		//god said 16 colours is all you need you dumb fuck
 		"godblack"						=	"160 160 160 255"
 		"godblue"						=	"0 0 0 255"
 		"godgreen"						=	"0 255 0 255"
