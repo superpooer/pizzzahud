@@ -2295,7 +2295,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"StoreHasNewItemsImage"
 		"xpos"			"c-85"
-		"ypos"			"r50"
+		"ypos"			"20000"
 		"zpos"			"13"
 		"wide"			"32"
 		"tall"			"32"

@@ -19,22 +19,23 @@ Scheme
 	Colors
 	{
 		//god said 16 colours is all you need you dumb fuck
-		"godblack"						=	"160 160 160 255"
-		"godblue"						=	"0 0 0 255"
-		"godgreen"						=	"0 255 0 255"
-		"godaqua"						=	"0 255 255 255"
-		"godred"							=	"255 0 0 255"
-		"godpurple"					=	"255 0 255 255"
-		"godyellow"					=	"255 255 0 255"
-		"godwhite"						=	"255 255 255 255"
-		"goddarkblack"				=	"0 0 0 255"
-		"goddarkblue"				=	"0 0 128 255"
-		"goddarkgreen"				=	"0 128 0 255"
-		"goddarkaqua"				=	"0 128 128 255"
-		"goddarkred"					=	"128 0 0 255"
-		"goddarkpurple"			=	"128 0 128 255"
-		"goddarkyellow"			=	"128 128 0 255"
-		"goddarkwhite"				=	"80 80 80 255"
+		"goddarkgrey"			"160 160 160 255"
+		"godblue"					"0 0 255 255"
+		"godgreen"				"0 255 0 255"
+		"godaqua"					"0 255 255 255"
+		"godred"					"255 0 0 255"
+		"godpurple"				"255 0 255 255"
+		"godyellow"				"255 255 0 255"
+		"godwhite"				"255 255 255 255"
+
+		"godblack"				"0 0 0 255"
+		"goddarkblue"			"0 0 128 255"
+		"goddarkgreen"		"0 128 0 255"
+		"goddarkaqua"			"0 128 128 255"
+		"goddarkred"			"128 0 0 255"
+		"goddarkpurple"		"128 0 128 255"
+		"goddarkyellow"		"128 128 0 255"
+		"goddarkwhite"		"80 80 80 255"
 
 
 
@@ -271,34 +272,32 @@ Scheme
 		Border.Dark						"Black"		// the dark/unlit side of a control
 		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
 
-		Button.TextColor				"TanLight"
-		Button.BgColor					"TanDark"
-		Button.ArmedTextColor			"TanLight"
-		Button.ArmedBgColor				"TFOrange"
-		Button.SelectedTextColor		"TanLight"
-		Button.SelectedBgColor			"TFOrange"
-		Button.DepressedTextColor		"Black"
-		Button.DepressedBgColor			"TFOrange"
+		Button.TextColor				"godgreen"
+		Button.BgColor					"godblack"
+		Button.ArmedTextColor			"godgreen"
+		Button.ArmedBgColor				"godblack"
+		Button.SelectedTextColor		"godgreen"
+		Button.SelectedBgColor			"godblack"
+		Button.DepressedTextColor		"godgreen"
+		Button.DepressedBgColor			"godblack"
 
-		CheckButton.TextColor			"Yellow"
-		CheckButton.SelectedTextColor	"Yellow"
-		CheckButton.BgColor				"TransparentBlack"
-		CheckButton.Border1  			"Yellow" 		// the left checkbutton border
-		CheckButton.Border2  			"Yellow"		// the right checkbutton border
-		CheckButton.Check				"Yellow"		// color of the check itself
-		CheckButton.HighlightFgColor	"Yellow"
+		CheckButton.TextColor			"godgreen"
+		CheckButton.SelectedTextColor	"godgreen"
+		CheckButton.BgColor				"godblack"
+		CheckButton.Border1  			"godblack" 		// the left checkbutton border
+		CheckButton.Border2  			"godblack"		// the right checkbutton border
+		CheckButton.Check				"godgreen"		// color of the check itself
+		CheckButton.HighlightFgColor	"godred"
 
-		ComboBoxButton.ArrowColor		"TanLight"
-		ComboBoxButton.ArmedArrowColor	"TanLight"
-		ComboBoxButton.BgColor			"Blank"
-		ComboBoxButton.DisabledBgColor	"Blank"
+		ComboBoxButton.ArrowColor		"godgreen"
+		ComboBoxButton.ArmedArrowColor	"godgreen"
+		ComboBoxButton.BgColor			"godblack"
+		ComboBoxButton.DisabledBgColor	"goddarkgrey"
 
 		Frame.BgColor					"TransparentBlack"
 		Frame.OutOfFocusBgColor			"TransparentBlack"
-		Frame.FocusTransitionEffectTime	"0.0"	[$WIN32] // time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime		"0.0"	[$WIN32] // time it takes for a window to fade in/out on open/close
-		Frame.FocusTransitionEffectTime	"0.15"	[$X360] // time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime		"0.15"	[$X360] // time it takes for a window to fade in/out on open/close
+		Frame.FocusTransitionEffectTime	"0.0"	// time it takes for a window to fade in/out on focus/out of focus
+		Frame.TransitionEffectTime		"0.0"	// time it takes for a window to fade in/out on open/close
 		Frame.AutoSnapRange				"0"
 		FrameGrip.Color1				"Blank"
 		FrameGrip.Color2				"Blank"
@@ -318,47 +317,47 @@ Scheme
 		GraphPanel.FgColor				"Orange"
 		GraphPanel.BgColor				"TransparentBlack"
 
-		Label.TextDullColor				"TanDark"
-		Label.TextColor					"TanLight"
-		Label.TextBrightColor			"TanLight"
-		Label.SelectedTextColor			"White"
+		Label.TextDullColor				"goddarkgreen"
+		Label.TextColor					"godgreen"
+		Label.TextBrightColor			"godred"
+		Label.SelectedTextColor			"godyellow"
 		Label.BgColor					"Blank"
 		Label.DisabledFgColor1			"Blank"
-		Label.DisabledFgColor2			"Black"
+		Label.DisabledFgColor2			"godblack"
 
-		ListPanel.TextColor					"Orange"
-		ListPanel.BgColor					"TransparentBlack"
-		ListPanel.SelectedTextColor			"Black"
-		ListPanel.SelectedBgColor			"Red"
-		ListPanel.SelectedOutOfFocusBgColor	"Red"
-		ListPanel.EmptyListInfoTextColor	"Orange"
+		ListPanel.TextColor					"godgreen"
+		ListPanel.BgColor					"godblack"
+		ListPanel.SelectedTextColor			"godblack"
+		ListPanel.SelectedBgColor			"godgreen"
+		ListPanel.SelectedOutOfFocusBgColor	"godred"
+		ListPanel.EmptyListInfoTextColor	"goddarkred"
 
-		Menu.TextColor					"TanLight"
-		Menu.BgColor					"TransparentBlack"
-		Menu.ArmedTextColor				"TanDark"
-		Menu.ArmedBgColor				"TanLight"
+		Menu.TextColor					"godgreen"
+		Menu.BgColor					"godblack"
+		Menu.ArmedTextColor				"godgreen"
+		Menu.ArmedBgColor				"godblack"
 		Menu.TextInset					"6"
 
-		Chat.TypingText					"Orange"
+		Chat.TypingText					"godgreed"
 
 		Panel.FgColor					"Gray"
 		Panel.BgColor					"Blank"
 
-		HTML.BgColor					"Blank"
+		HTML.BgColor					"godblack"
 
-		ProgressBar.FgColor				"ProgressOffWhite"
-		ProgressBar.BgColor				"ProgressBackground"
+		ProgressBar.FgColor				"godgreen"
+		ProgressBar.BgColor				"godblack"
 
-		CircularProgressBar.FgColor		"White"
-		CircularProgressBar.BgColor		"White"
+		CircularProgressBar.FgColor		"godgreen"
+		CircularProgressBar.BgColor		"godblack"
 
-		"BuildingHealthBar.BgColor"		"HealthBgGrey"
-		"BuildingHealthBar.Health"		"ProgressOffWhite"
-		"BuildingHealthBar.LowHealth"	"LowHealthRed"
+		"BuildingHealthBar.BgColor"		"godblack"
+		"BuildingHealthBar.Health"		"godgreen"
+		"BuildingHealthBar.LowHealth"	"godred"
 
 		PropertySheet.TextColor			"Orange"
 		PropertySheet.SelectedTextColor	"Orange"
-		PropertySheet.TransitionEffectTime	"0.25"	// time to change from one tab to another
+		PropertySheet.TransitionEffectTime	"0.0"	// time to change from one tab to another
 
 		RadioButton.TextColor			"Orange"
 		RadioButton.SelectedTextColor	"Orange"
