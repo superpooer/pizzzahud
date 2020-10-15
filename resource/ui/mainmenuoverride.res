@@ -120,6 +120,61 @@
 		}
 	}
 
+	"ServerBrowserButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"ServerBrowserButton"
+		"xpos"			"c-288"
+		"ypos"			"c80"
+		"zpos"			"1"
+		"wide"			"130"
+		"tall"			"25"
+		"visible"		"1"
+		"PaintBackgroundType"	"0"
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"220"
+			"tall"			"14"
+			"autoResize"	"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"font"			"consolas20"
+			"textAlignment"	"west"
+			"textinsetx"	"24"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+
+			"border_default"	""
+			"paintbackground"	"0"
+
+			"defaultFgColor_override" "White"
+			"armedFgColor_override"   "214 206 200 255"
+			"depressedFgColor_override" "75 125 255 255"
+
+			"image_drawcolor"	"0 0 0 175"
+			"image_armedcolor"	"0 0 0 255"
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"0"
+				"wide"			"0"
+				"tall"			"0"
+				"visible"		"0"
+				"enabled"		"0"
+				"scaleImage"	"0"
+			}
+		}
+	}
+
 	"mouseoveritempanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -188,38 +243,38 @@
 			"tall"			"f0"
 		}
 
-		if_halloween_0
-		{
-			"image"		"../console/title_team_halloween2011_widescreen"
-		}
-		if_halloween_1
-		{
-			"image"		"../console/title_team_halloween2012_widescreen"
-		}
-		if_halloween_2
-		{
-			"image"		"../console/title_team_halloween2013_widescreen"
-		}
-		if_halloween_3
-		{
-			"image"		"../console/title_team_halloween2014_widescreen"
-		}
-		if_halloween_4
-		{
-			"image"		"../console/title_team_halloween2015_widescreen"
-		}
-		if_halloween_5
-		{
-			"image"		"../console/title_scream_fortress_2017_widescreen"
-		}
-		if_fullmoon
-		{
-			"image"		"../console/title_fullmoon_widescreen"
-		}
-		if_christmas
-		{
-			"image"		"../console/background_xmas2011_widescreen"
-		}
+//		if_halloween_0
+//		{
+//			"image"		"../console/title_team_halloween2011_widescreen"
+//		}
+//		if_halloween_1
+//		{
+//			"image"		"../console/title_team_halloween2012_widescreen"
+//		}
+//		if_halloween_2
+//		{
+//			"image"		"../console/title_team_halloween2013_widescreen"
+//		}
+//		if_halloween_3
+//		{
+//			"image"		"../console/title_team_halloween2014_widescreen"
+//		}
+//		if_halloween_4
+//		{
+//			"image"		"../console/title_team_halloween2015_widescreen"
+//		}
+//		if_halloween_5
+//		{
+//			"image"		"../console/title_scream_fortress_2017_widescreen"
+//		}
+//		if_fullmoon
+//		{
+//			"image"		"../console/title_fullmoon_widescreen"
+//		}
+//		if_christmas
+//		{
+//			"image"		"../console/background_xmas2011_widescreen"
+//		}
 	}
 
 	"TFLogoImage"
@@ -1312,71 +1367,6 @@
 		"border"		"MainMenuBGBorder"
 	}
 
-	"VRModeButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"VRModeButton"
-		"xpos"			"c-285"
-		"ypos"			"379"
-		"zpos"			"-60"
-		"wide"			"270"
-		"tall"			"36"
-		"visible"		"1"
-		"PaintBackgroundType"	"2"
-
-		"navUp"			"ReplayBrowserButton"
-		"navDown"		"QuitButton"
-		"navRight"		"Notifications_ShowButtonPanel"
-		"navToRelay"	"SubButton"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"250"
-			"tall"			"26"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"textinsetx"	"25"
-			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-
-			"border_default"	"MainMenuButtonDefault"
-			"border_armed"		"MainMenuButtonArmed"
-			"paintbackground"	"0"
-
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
-
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"235 226 202 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"6"
-				"ypos"			"6"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-			}
-		}
-	}
 
 	"CompetitiveAccessInfoPanel"
 	{

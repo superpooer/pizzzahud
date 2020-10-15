@@ -4,10 +4,10 @@
 	{
 		"ControlName"		"CEmbeddedItemModelPanel"
 		"fieldName"		"itemmodelpanel"
-	
+
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"1"		
+		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"100"
 		"autoResize"		"0"
@@ -32,44 +32,25 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"DisguiseStatusBG"
-		"xpos"			"10"
-		"xpos_minmode"			"10"
+		"xpos"			"0"
 		"ypos"			"30"
-		"ypos_minmode"			"48"
 		"zpos"			"-1"
 		"wide"			"200"
-		"wide_minmode"			"140"
 		"tall"	 		"32"
-		"tall_minmode"	 		"22"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_red"
-		"teambg_2_lodef"	"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"
-		"teambg_3_lodef"	"../hud/color_panel_blu"
-		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
-			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
 	}
 
 	"DisguiseNameLabel"
-	{	
-		"ControlName"	"Label"
+	{
+		"ControlName"	"CExLabel"
 		"fieldName"		"DisguiseNameLabel"
-		"font"			"HudFontMediumSmallSecondary"
-		"font_minmode"	"TFFontMedium"
-		"xpos"			"52"
-		"xpos_minmode"	"34"
-		"ypos"			"31"
-		"ypos_minmode"	"51"
+		"fgcolor"		"TanLight"
+		"font"			"consolas16"
+		"xpos"			"62"
+		"ypos"			"40"
 		"zpos"			"1"
 		"wide"			"110"
 		"tall"			"24"
@@ -79,20 +60,34 @@
 		"enabled"		"1"
 		"labelText"		"%disguisename%"
 		"textAlignment"		"North-West"
-		"dulltext"		"0"
-		"brighttext"		"0"
 	}
-	
+	"DisguiseNameLabelShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"DisguiseNameLabel"
+		"fgcolor"		"Black"
+		"font"			"consolas16"
+		"xpos"			"63"
+		"ypos"			"41"
+		"zpos"			"1"
+		"wide"			"110"
+		"tall"			"24"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%disguisename%"
+		"textAlignment"		"North-West"
+	}
+
 	"WeaponNameLabel"
-	{	
-		"ControlName"	"Label"
+	{
+		"ControlName"	"CExLabel"
 		"fieldName"		"WeaponNameLabel"
-		"font"			"HUDFontSmall"
-		"font_minmode"	"TFFontMedium"
+		"font"			"consolas14"
+		"fgcolor"		"TanLight"
 		"xpos"			"52"
-		"xpos_minmode"	"34"
-		"ypos"			"45"
-		"ypos_minmode"	"58"
+		"ypos"			"55"
 		"zpos"			"1"
 		"wide"			"110"
 		"tall"			"24"
@@ -102,27 +97,40 @@
 		"enabled"		"1"
 		"labelText"		"%weaponname%"
 		"textAlignment"		"North-West"
-		"dulltext"		"0"
-		"brighttext"		"0"
-	}
-	
+
+	"WeaponNameLabelShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"WeaponNameLabel"
+		"fgcolor"		"Black"
+		"font"			"consolas14"
+		"xpos"			"54"
+		"ypos"			"56"
+		"zpos"			"1"
+		"wide"			"110"
+		"tall"			"24"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%weaponname%"
+		"textAlignment"		"North-West"
+
 	"SpectatorGUIHealth"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"20"
-		"xpos_minmode"	"10"
-		"ypos"			"30"
-		"ypos_minmode"	"45"
-		"wide"			"32"
-		"tall"			"32"
+		"xpos"			"10"
+		"ypos"			"0"
+		"wide"			"64"
+		"tall"			"64"
 		"visible"		"1"
-		"enabled"		"1"	
+		"enabled"		"1"
 		"HealthBonusPosAdj"	"10"
 		"HealthDeathWarning"	"0.49"
-		"TFFont"		"HudFontSmall"
+		"TFFont"		"consolas12"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"HudOffWhite"
-	}	
-	
+	}
+
 }
