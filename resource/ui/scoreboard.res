@@ -32,14 +32,14 @@
 		}
 	}
 	
-	"BlueBG"
+	"TeamsBG"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BlueBG"
-		"xpos"			"5"
+		"xpos"			"10"
 		"ypos"			"30"
 		"zpos"			"-1"
-		"wide"			"290"
+		"wide"			"580"
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"	
@@ -54,15 +54,15 @@
  			"visible"		"0"
  		}
 	}
-	"BlueScoreBG"
+	"scoresbg"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"BlueScoreBG"
-		"xpos"			"5"
-		"ypos"			"78"
-		"zpos"			"2"
-		"wide"			"290"
-		"tall"			"200"
+		"fieldName"		"scoresbg"
+		"xpos"			"10"
+		"ypos"			"65"
+		"zpos"			"0"
+		"wide"			"580"
+		"tall"			"265"
 		"visible"		"1"
 		"enabled"		"1"	
 		"pinCorner"		"0"
@@ -81,10 +81,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"BlueTeamName"
-		"font"				"G_FontMedium"
+		"font"				"consolas32"
 		"labelText"			"%blueteamname%"
 		"textAlignment"		"west"
-		"xpos"				"10"
+		"xpos"				"15"
 		"ypos"				"25"
 		"wide"				"310"
 		"tall"				"35"
@@ -104,7 +104,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScore"
-		"font"			"G_FontBig"
+		"font"			"consolas24"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
 		"xpos"			"5"
@@ -130,7 +130,7 @@
 		"font"				"G_FontSmall_2"
 		"labelText"			"%blueteamplayercount%"
 		"textAlignment"		"west"
-		"xpos"				"9"
+		"xpos"				"14"
 		"ypos"				"40"
 		"wide"				"285"
 		"tall"				"35"
@@ -145,60 +145,14 @@
 			"visible"		"0"
 		}
 	}
-	
-	"RedBG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"RedBG"
-		"xpos"			"305"
-		"ypos"			"30"
-		"zpos"			"-1"
-		"wide"			"290"
-		"tall"			"35"
-		"visible"		"1"
-		"enabled"		"1"	
-		"pinCorner"		"0"
-		"autoResize"	"0"
-		"PaintBackgroundType"	"0"
-		"paintbackground"		"1"
-		"bgcolor_override"		"25 25 25 255"
-		
-		 if_mvm
- 		{
- 			"visible"		"0"
- 		}
-	}
-	"RedScoreBG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"RedBG"
-		"xpos"			"305"
-		"ypos"			"78"
-		"zpos"			"2"
-		"wide"			"290"
-		"tall"			"200"
-		"visible"		"1"
-		"enabled"		"1"	
-		"pinCorner"		"0"
-		"autoResize"	"0"
-		"PaintBackgroundType"	"0"
-		"paintbackground"		"1"
-		"bgcolor_override"		"25 25 25 200"
-		
-	 	if_mvm
- 		{
- 			"visible"		"0"
- 		}
-	}
-
 	"RedTeamName"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"RedTeamName"
-		"font"				"G_FontMedium"
+		"font"				"consolas32"
 		"labelText"			"%redteamname%"
 		"textAlignment"		"east"
-		"xpos"				"321"
+		"xpos"				"316"
 		"ypos"				"25"
 		"wide"				"270"
 		"tall"				"35"
@@ -219,7 +173,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"RedTeamScore"
-		"font"				"G_FontBig"
+		"font"				"consolas24"
 		"labelText"			"%redteamscore%"
 		"textAlignment"		"west"
 		"xpos"				"312"
@@ -246,7 +200,7 @@
 		"font"				"G_FontSmall_2"
 		"labelText"			"%redteamplayercount%"
 		"textAlignment"		"east"
-		"xpos"				"305"
+		"xpos"				"300"
 		"ypos"				"40"
 		"wide"				"285"
 		"tall"				"35"
@@ -260,38 +214,12 @@
 		{
 			"visible"		"0"
 		}
-	}	
-	"ServerBackground"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ServerBackground"
-		"xpos"			"5"
-		"ypos"			"66"
-		"zpos"			"-1"
-		"wide"			"290"
-		"tall"			"11"
-		"visible"		"1"
-		"enabled"		"1"	
-		"pinCorner"		"0"
-		"autoResize"	"0"
-		"PaintBackgroundType"	"0"
-		"paintbackground"		"1"
-		"bgcolor_override"		"40 40 40 255"
-		
-		if_mvm
-		{
-			"visible"		"0"
-			"xpos"			"25"
-			"ypos"			"78"
-			"wide"			"550"
-		}
 	}
-
 	"ServerLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerLabel"
-		"font"			"HudFontSmallest"
+		"font"			"consolas16"
 		"labelText"		"%server%"
 		"textAlignment"		"West"
 		"xpos"			"11"
@@ -312,33 +240,11 @@
 			"textAlignment"		"West"
 		}
 	}
-	"TimeBackground"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"TimeBackground"
-		"xpos"			"305"
-		"ypos"			"66"
-		"zpos"			"-1"
-		"wide"			"290"
-		"tall"			"11"
-		"visible"		"1"
-		"enabled"		"1"	
-		"pinCorner"		"0"
-		"autoResize"	"0"
-		"PaintBackgroundType"	"0"
-		"paintbackground"		"1"
-		"bgcolor_override"		"40 40 40 255"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
-	"ServerTimeLeftLabel"
+			"ServerTimeLeftLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerTimeLeftLabel"
-		"font"			"HudFontSmallest"
+		"font"			"consolas16"
 		"labelText"		"%servertimeleft%"
 		"textAlignment"		"east"
 		"xpos"			"310"
@@ -445,32 +351,6 @@
 		if_mvm
 		{
 			"visible"		"0"
-		}
-	}
-	
-	"ShadedBar"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"ShadedBar"
-		"xpos"			"5"
-		"ypos"			"280"
-		"zpos"			"2"
-		"wide"			"590"
-		"tall"			"50"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"	
-		"fillcolor"		"25 25 25 200"
-		"PaintBackgroundType"	"0"
-		
-		if_mvm
-		{
-			"xpos"			"305"
-			"ypos"			"245"
-			"wide"			"270"
-			"tall"			"132"
 		}
 	}
 	
@@ -712,7 +592,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"PlayerNameLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"consolas12"
 		"labelText"		"%playername%"
 		"textAlignment"		"west"
 		"xpos"			"0"
@@ -756,11 +636,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"mapname"
-		"font"			"HudFontSmallestBold"
+		"font"			"consolas16"
 		"labelText"		"%mapname%"
 		"textAlignment"	"east"
-		"xpos"			"3"
-		"ypos"			"315"
+		"xpos"			"-5"
+		"ypos"			"312"
 		"zpos"			"3"
 		"wide"			"590"
 		"tall"			"15"
@@ -930,7 +810,7 @@
 				"wrap"			"0"
 				"labelText"		"%playername%"
 				"textAlignment"	"east"
-				"font"			"HudFontSmallestBold"
+				"font"			"consolas12Bold"
 			}
 			"Score"
 			{
@@ -1009,7 +889,7 @@
 				"wrap"			"0"
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
-				"font"			"HudFontSmallestBold"
+				"font"			"consolas12Bold"
 			}
 			"Score"
 			{
@@ -1086,7 +966,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"KillsLabel"
-			"font"			"HudFontSmallest"
+			"font"			"consolas12"
 			"labelText"		"#TF_ScoreBoard_KillsLabel"
 			"textAlignment"	"0"
 			"xpos"			"0"
@@ -1104,7 +984,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DeathsLabel"
-			"font"			"HudFontSmallest"
+			"font"			"consolas12"
 			"labelText"		"#TF_ScoreBoard_DeathsLabel"
 			"textAlignment"	"east"
 			"xpos"			"0"
@@ -1179,7 +1059,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"AssistsLabel"
-			"font"			"HudFontSmallest"
+			"font"			"consolas12"
 			"labelText"		"#TF_ScoreBoard_AssistsLabel"
 			"textAlignment"	"east"
 			"xpos"			"70"
@@ -1206,7 +1086,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Assists"
-			"font"			"HudFontSmallest"
+			"font"			"consolas12"
 			"labelText"		"%assists%"
 			"textAlignment"		"west"
 			"xpos"			"172"
@@ -1232,7 +1112,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DestructionLabel"
-			"font"			"HudFontSmallest"
+			"font"			"consolas12"
 			"labelText"		"#TF_ScoreBoard_DestructionLabel"
 			"textAlignment"		"east"
 			"xpos"			"170"
@@ -1254,7 +1134,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Destruction"
-			"font"			"HudFontSmallest"
+			"font"			"consolas12"
 			"labelText"		"%destruction%"
 			"textAlignment"		"west"
 			"xpos"			"272"
@@ -1294,7 +1174,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"CapturesLabel"
-			"font"			"HudFontSmallest"
+			"font"			"consolas12"
 			"labelText"		"#TF_ScoreBoard_CapturesLabel"
 			"textAlignment"		"east"
 			"xpos"			"70"
@@ -1317,7 +1197,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Captures"
-			"font"			"HudFontSmallest"
+			"font"			"consolas12"
 			"labelText"		"%captures%"
 			"textAlignment"		"west"
 			"xpos"			"172"	[$WIN32]
@@ -1339,7 +1219,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DefensesLabel"
-			"font"			"HudFontSmallest"
+			"font"			"consolas12"
 			"labelText"		"#TF_ScoreBoard_DefensesLabel"
 			"textAlignment"		"east"
 			"xpos"			"70"	[$WIN32]
@@ -1362,7 +1242,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Defenses"
-			"font"			"HudFontSmallest"
+			"font"			"consolas12"
 			"labelText"		"%defenses%"
 			"textAlignment"		"west"
 			"xpos"			"172"	[$WIN32]
@@ -1384,7 +1264,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DominationLabel"
-			"font"			"HudFontSmallest"
+			"font"			"consolas12"
 			"labelText"		"#TF_ScoreBoard_DominationLabel"
 			"textAlignment"		"east"
 			"xpos"			"170"	[$WIN32]
@@ -1407,7 +1287,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Domination"
-			"font"			"HudFontSmallest"
+			"font"			"consolas12"
 			"labelText"		"%dominations%"
 			"textAlignment"		"west"
 			"xpos"			"272"	[$WIN32]
@@ -1430,7 +1310,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RevengeLabel"
-			"font"			"HudFontSmallest"
+			"font"			"consolas12"
 			"labelText"		"#TF_ScoreBoard_RevengeLabel"
 			"textAlignment"		"east"
 			"xpos"			"170"	[$WIN32]
@@ -1453,7 +1333,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Revenge"
-			"font"			"HudFontSmallest"
+			"font"			"consolas12"
 			"labelText"		"%Revenge%"
 			"textAlignment"		"west"
 			"xpos"			"272"	[$WIN32]
@@ -1476,7 +1356,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DamageLabel"
-			"font"			"HudFontSmallest"
+			"font"			"consolas12"
 			"labelText"		"#TF_Scoreboard_Damage"
 			"textAlignment"	"east"
 			"xpos"			"420"	[$WIN32]
@@ -1503,7 +1383,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Damage"
-			"font"			"HudFontSmallest"
+			"font"			"consolas12"
 			"labelText"		"%damage%"
 			"textAlignment"	"west"	[$WIN32]
 			"xpos"			"522"	[$WIN32]
@@ -1529,7 +1409,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"HealingLabel"
-			"font"			"HudFontSmallest"
+			"font"			"consolas12"
 			"labelText"		"#TF_ScoreBoard_HealingLabel"
 			"textAlignment"		"east"
 			"xpos"			"250"	[$WIN32]
@@ -1555,7 +1435,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Healing"
-			"font"			"HudFontSmallest"
+			"font"			"consolas12"
 			"labelText"		"%healing%"
 			"textAlignment"		"west"
 			"xpos"			"352"	[$WIN32]
@@ -1581,7 +1461,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"InvulnLabel"
-			"font"			"HudFontSmallest"
+			"font"			"consolas12"
 			"labelText"		"#TF_ScoreBoard_InvulnLabel"
 			"textAlignment"		"east"
 			"xpos"			"250"	[$WIN32]
@@ -1608,7 +1488,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Invuln"
-			"font"			"HudFontSmallest"
+			"font"			"consolas12"
 			"labelText"		"%invulns%"
 			"textAlignment"		"west"
 			"xpos"			"352"	[$WIN32]
@@ -1634,7 +1514,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TeleportsLabel"
-			"font"			"HudFontSmallest"
+			"font"			"consolas12"
 			"labelText"		"#TF_ScoreBoard_TeleportsLabel"
 			"textAlignment"		"east"
 			"xpos"			"250"	[$WIN32]
@@ -1656,7 +1536,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Teleports"
-			"font"			"HudFontSmallest"
+			"font"			"consolas12"
 			"labelText"		"%teleports%"
 			"textAlignment"		"west"
 			"xpos"			"352"	[$WIN32]
@@ -1678,7 +1558,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"HeadshotsLabel"
-			"font"			"HudFontSmallest"
+			"font"			"consolas12"
 			"labelText"		"#TF_ScoreBoard_HeadshotsLabel"
 			"textAlignment"		"east"
 			"xpos"			"340"	[$WIN32]
@@ -1704,7 +1584,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Headshots"
-			"font"			"HudFontSmallest"
+			"font"			"consolas12"
 			"labelText"		"%headshots%"
 			"textAlignment"		"west"
 			"xpos"			"442"	[$WIN32]
@@ -1730,7 +1610,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BackstabsLabel"
-			"font"			"HudFontSmallest"
+			"font"			"consolas12"
 			"labelText"		"#TF_ScoreBoard_BackstabsLabel"
 			"textAlignment"		"east"
 			"xpos"			"340"	[$WIN32]
@@ -1756,7 +1636,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Backstabs"
-			"font"			"HudFontSmallest"
+			"font"			"consolas12"
 			"labelText"		"%backstabs%"
 			"textAlignment"		"west"	[$WIN32]
 			"xpos"			"442"		[$WIN32]
@@ -1782,7 +1662,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BonusLabel"
-			"font"			"HudFontSmallest"
+			"font"			"consolas12"
 			"labelText"		"#TF_ScoreBoard_BonusLabel"
 			"textAlignment"		"east"
 			"xpos"			"340"	[$WIN32]
@@ -1809,7 +1689,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Bonus"
-			"font"			"HudFontSmallest"
+			"font"			"consolas12"
 			"labelText"		"%bonus%"
 			"textAlignment"		"west"	[$WIN32]
 			"xpos"			"442"		[$WIN32]
@@ -1835,7 +1715,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"SupportLabel"
-			"font"			"HudFontSmallest"
+			"font"			"consolas12"
 			"labelText"		"#TF_Scoreboard_Support"
 			"textAlignment"	"east"
 			"xpos"			"420"	[$WIN32]
@@ -1861,7 +1741,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Support"
-			"font"			"HudFontSmallest"
+			"font"			"consolas12"
 			"labelText"		"%support%"
 			"textAlignment"	"west"	[$WIN32]
 			"xpos"			"522"	[$WIN32]

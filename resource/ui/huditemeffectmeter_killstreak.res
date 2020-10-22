@@ -6,7 +6,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"74"	[$WIN32]
-		"ypos"			"c196"	[$WIN32]
+		"ypos"			"c195"	[$WIN32]
 		"xpos_minmode"	"68"	[$WIN32]
 		"ypos_minmode"	"r40"	[$WIN32]
 		"wide"			"100"
@@ -84,9 +84,9 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCountbg"
-		"xpos"					"26"
+		"xpos"					"27"
 		"ypos_minmode"			"18"
-		"ypos"					"13"
+		"ypos"					"14"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"30"	
