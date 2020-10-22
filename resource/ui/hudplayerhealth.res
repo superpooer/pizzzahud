@@ -87,7 +87,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"font"			"Consolas48"
-		"fgcolor"		"Black"
+		"fgcolor"		"0 0 0 255"
 	}
 	"PlayerStatusMaxHealthValue"
 	{
